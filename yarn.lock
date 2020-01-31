@@ -106,6 +106,13 @@ bytes@3.1.0:
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
 
+caesar-salad@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/caesar-salad/-/caesar-salad-2.1.0.tgz#7f0d048ec141c7e0d79f3980be363aa0da984d20"
+  integrity sha512-ul2EGpFSv9ftddddOo/2PkzTlbEFbdgBtc7ESpEend/Kf26/eG2e25vUuG9TL4nc+lZgnSMnc4SRgE1o7086DQ==
+  dependencies:
+    char-buffer "^1.0.0||^2.0.0"
+
 camelcase@^4.0.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/camelcase/-/camelcase-4.1.0.tgz#d545635be1e33c542649c69173e5de6acfae34dd"
@@ -124,6 +131,11 @@ chalk@^2.0.1:
     ansi-styles "^3.2.1"
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
+
+char-buffer@^1.0.0||^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/char-buffer/-/char-buffer-2.0.0.tgz#aacbde7785c75834e97e471960621a1c04c0ed57"
+  integrity sha512-VhQ0Lv1guSq/VfUM2nmEQiqLyD/bPtGh0zAMNqP9fjnI1wNbOU1Bv1xEh0tEdxhieatZfmaCw08lhzNEyeHpkQ==
 
 chokidar@^3.2.2:
   version "3.3.1"
